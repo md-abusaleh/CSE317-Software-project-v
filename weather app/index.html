@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+
+
+  <body>
+
+
+    <main>
+
+      <section>
+
+        <div class="card">
+
+<!-- header part -->
+          <div class="header">
+            <p> Weather Reports for Your City</p>
+          </div>
+
+<!-- search part -->
+
+  
+          <div class="search">
+            <input type="text" placeholder="Enter Your City Name" spellcheck="false" />
+    
+            <button>
+              <img src="images/search.png" alt="img" />
+            </button>
+          </div>
+  
+<!-- error -->
+
+<div class="error">
+  <p>Invalid City Name</p>
+</div>
+<!-- weather display part  -->
+
+          <div class="weather">
+    
+            <img src="images/rain.png" alt="img" class="weather-icon" />
+
+            <h1 class="temp">42°C</h1>
+
+            <h2 class="city">Dhaka</h2>
+
+       
+    
+<!-- details part -->
+
+
+            <div class="details">
+
+
+<!-- first column -->
+    
+                <div class="col1">
+                    <img src="images/humidity.png" alt="img">
+                    <div class="display">
+
+                       <p class="humidity">50%</p>
+                       <p class="humidity">Humidity</p>
+                      
+                      </div>
+                   
+                </div>
+    
+<!-- second column -->
+    
+                <div class="col2">
+                    <img src="images/wind.png" alt="img">
+
+
+                    <div class="display"> 
+                        <p class="wind">20km/h</p>
+                        <p class="wind">Wind speed</p>
+                    </div>
+
+                  
+                </div>
+    
+            </div>
+    
+    </div>
+  </div>
+</div>
+
+
+
+      </section>
+
+    </main>
+
+    <script src="app.js"></script>;
+
+  </body>
+</html>

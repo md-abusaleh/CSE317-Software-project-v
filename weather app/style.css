@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  background-image: url(images/dark8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  margin: 100px auto 0px;
+  border-radius: 30px;
+  padding: 5%;
+  text-align: center;
+}
+
+.header {
+  background-color: #041325;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333;
+  box-shadow: none;
+  outline: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.search button {
+  border: 0;
+  background: rgb(247, 243, 243);
+  border-radius: 70%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.search button:active img {
+  opacity: 0.5;
+}
+
+.search button img {
+  width: 40px;
+  transition: 0.1s ease-in-out;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-top: 20px;
+}
+
+.temp {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 2%;
+}
+
+.city {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  padding: 0% 10%;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.col1 img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.col2 img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  display: none;
+  color: rgb(0, 255, 157);
+}
